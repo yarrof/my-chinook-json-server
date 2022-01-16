@@ -1,0 +1,23 @@
+{
+    "artists":[
+        {"id":1, "name":"Nevermore"},
+        {"id":2, "name":"Lamb of God"},
+        {"id":3, "name":"Meshuggah"}
+    ],
+    "albums":[
+        {"id":1, "title":"Dreaming Neon Black", "artistId":1},
+        {"id":2, "title":"Dead Heart in a Dead World", "artistId":1},
+        {"id":3, "title":"Enemies of Reality", "artistId":1},
+        {"id":4, "title":"New American Gospel", "artistId":2},
+        {"id":5, "title":"As the Palaces Burn", "artistId":2},
+        {"id":6, "title":"Chaosphere", "artistId":3}
+    ],
+    "tracks":[
+        {"id":1, "name":"Ophidian", "albumId":1, "isFavorite":true},
+        {"id":2, "name":"We Disintegrate", "albumId":2, "isFavorite":true},
+        {"id":3, "name":"Never Purify", "albumId":3, "isFavorite":false},
+        {"id":4, "name":"Letter to the Unborn", "albumId":4, "isFavorite":false},
+        {"id":5, "name":"For Your Malice", "albumId":5, "isFavorite":false},
+        {"id":6, "name":"Sane", "albumId":6, "isFavorite":false}
+    ]
+}
